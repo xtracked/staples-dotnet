@@ -1,0 +1,7 @@
+# Requirements for core
+mkdocs~=1.5.3
+mkdocs-material~=9.5.17
+
+# Requirements for plugins
+mkdocs-git-committers-plugin-2~=2.3.0
+mkdocs-git-revision-date-localized-plugin~=1.2.4
