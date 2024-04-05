@@ -1,0 +1,31 @@
+﻿# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+
+name: ci
+on:
+  # Allow running the workflow manually from the GitHub UI
+  workflow_dispatch: 
+  push:
+    branches:
+      # Run the workflow when pushing to the main branch
+      - main
+  pull_request:
+    branches:
+      # Run the workflow for all pull requests for the main branch
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Restore dependencies
+        run: dotnet restore -c Release
+      - name: Build
+        run: dotnet build -c Release --no-restore
+      - name: Test
+        run: dotnet test -c Release --no-build --verbosity normal
