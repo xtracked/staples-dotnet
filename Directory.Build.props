@@ -1,0 +1,24 @@
+<Project>
+    <!-- Build options -->
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    
+    <!-- Package configuration -->
+    <PropertyGroup>        
+        <Authors>Xtracked</Authors>
+        <Copyright>Copyright (c) Xtracked 2024</Copyright>
+        <PackageProjectUrl>https://github.com/xtracked/staples-dotnet</PackageProjectUrl>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    </PropertyGroup>
+    
+    <!-- 
+    Use https://github.com/dotnet/reproducible-builds so certain properties are automatically set (like 
+    https://github.com/dotnet/sourcelink) for packages
+    -->
+    <ItemGroup>
+        <PackageReference Include="DotNet.ReproducibleBuilds" Version="1.1.1" PrivateAssets="All"/>
+    </ItemGroup>
+</Project>

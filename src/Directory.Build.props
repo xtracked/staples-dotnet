@@ -1,0 +1,11 @@
+<Project>
+    <Import Project="../Directory.Build.props" />
+
+    <PropertyGroup>
+        <TreatWarningsAsErrors Condition="'$(Configuration)' != 'Debug'">true</TreatWarningsAsErrors>
+        <!-- We will enable specific packages for now -->
+        <IsPackable>false</IsPackable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+</Project>

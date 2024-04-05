@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <!-- Package configuration -->
+    <PropertyGroup>
+        <IsPackable>true</IsPackable>
+        
+        <Description>Library to differentiate undefined, null and non-null values.</Description>
+        <PackageTags>optional json</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="/" />
+    </ItemGroup>
+
+</Project>
