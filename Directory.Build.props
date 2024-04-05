@@ -19,6 +19,6 @@
     https://github.com/dotnet/sourcelink) for packages
     -->
     <ItemGroup>
-        <PackageReference Include="DotNet.ReproducibleBuilds" Version="1.1.1" PrivateAssets="All"/>
+        <PackageReference Include="DotNet.ReproducibleBuilds" />
     </ItemGroup>
 </Project>
