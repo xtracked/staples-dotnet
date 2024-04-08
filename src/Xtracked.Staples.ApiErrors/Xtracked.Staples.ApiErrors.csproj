@@ -2,8 +2,6 @@
 
     <!-- Package configuration -->
     <PropertyGroup>
-        <IsPackable>true</IsPackable>
-
         <Description>Library that offers ApiError, which can be used to standardize errors for (REST) APIs.</Description>
         <PackageTags>rest json api</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>

@@ -2,8 +2,6 @@
 
     <!-- Package configuration -->
     <PropertyGroup>
-        <IsPackable>true</IsPackable>
-
         <Description>Library that adds ASP.NET Core support to ApiErrors.</Description>
         <PackageTags>rest json api</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>

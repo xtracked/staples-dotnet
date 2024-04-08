@@ -2,8 +2,6 @@
 
     <!-- Package configuration -->
     <PropertyGroup>
-        <IsPackable>true</IsPackable>
-
         <Description>Library that adds support for the options pattern to Autofac.</Description>
         <PackageTags>extensions</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>

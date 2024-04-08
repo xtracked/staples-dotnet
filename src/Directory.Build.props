@@ -3,8 +3,7 @@
 
     <PropertyGroup>
         <TreatWarningsAsErrors Condition="'$(Configuration)' != 'Debug'">true</TreatWarningsAsErrors>
-        <!-- We will enable specific packages for now -->
-        <IsPackable>false</IsPackable>
+        <IsPackable>true</IsPackable>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <EnablePackageValidation>true</EnablePackageValidation>
     </PropertyGroup>

@@ -2,8 +2,6 @@
 
     <!-- Package configuration -->
     <PropertyGroup>
-        <IsPackable>true</IsPackable>
-
         <Description>Library that adds extra functionality to the .NET Reactive Extensions (Rx).</Description>
         <PackageTags>extensions rx</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>

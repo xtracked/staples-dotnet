@@ -2,8 +2,6 @@
 
     <!-- Package configuration -->
     <PropertyGroup>
-        <IsPackable>true</IsPackable>
-        
         <Description>Library that adds extra functionality to code in the System namespace.</Description>
         <PackageTags>extensions</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>

@@ -2,8 +2,6 @@
 
     <!-- Package configuration -->
     <PropertyGroup>
-        <IsPackable>true</IsPackable>
-
         <Description>Library that adds FluentValidation support to ApiErrors.</Description>
         <PackageTags>rest json api validation</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
