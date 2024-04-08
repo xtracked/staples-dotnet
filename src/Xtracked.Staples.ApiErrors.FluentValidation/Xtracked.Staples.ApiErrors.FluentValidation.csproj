@@ -1,5 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+    <!-- Package configuration -->
+    <PropertyGroup>
+        <IsPackable>true</IsPackable>
+
+        <Description>Library that adds FluentValidation support to ApiErrors.</Description>
+        <PackageTags>rest json api validation</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="/" />
+    </ItemGroup>
+
     <ItemGroup>
         <ProjectReference Include="..\Xtracked.Staples.ApiErrors\Xtracked.Staples.ApiErrors.csproj" />
     </ItemGroup>
