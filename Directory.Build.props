@@ -9,7 +9,7 @@
     <!-- Version -->
     <PropertyGroup>
         <VersionPrefix>0.1.0</VersionPrefix>
-        <VersionSuffix>alpha01</VersionSuffix>
+        <VersionSuffix>alpha02</VersionSuffix>
     </PropertyGroup>
     
     <!-- Package configuration -->
