@@ -1,5 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+    <!-- Package configuration -->
+    <PropertyGroup>
+        <IsPackable>true</IsPackable>
+
+        <Description>Library that adds extra functionality to Autofac.</Description>
+        <PackageTags>extensions</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="/" />
+    </ItemGroup>
+
     <ItemGroup>
         <PackageReference Include="Autofac" />
     </ItemGroup>
