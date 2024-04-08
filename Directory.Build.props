@@ -18,7 +18,12 @@
         <Copyright>Copyright (c) Xtracked 2024</Copyright>
         <PackageProjectUrl>https://staples-dotnet.xtracked.io</PackageProjectUrl>
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <PackageIcon>icon.png</PackageIcon>
     </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include="$(MSBuildThisFileDirectory)/assets/icon.png" Pack="true" PackagePath="/" />
+    </ItemGroup>
     
     <!-- 
     Use https://github.com/dotnet/reproducible-builds so certain properties are automatically set (like 
