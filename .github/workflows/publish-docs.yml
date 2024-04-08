@@ -6,6 +6,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      # Only run on changes to docs
+      - "docs/**"
+      - "mkdocs.yml"
+      - "requirements.txt"
 
 permissions:
   contents: write
