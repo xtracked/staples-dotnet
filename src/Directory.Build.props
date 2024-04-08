@@ -6,6 +6,7 @@
         <!-- We will enable specific packages for now -->
         <IsPackable>false</IsPackable>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <EnablePackageValidation>true</EnablePackageValidation>
     </PropertyGroup>
 
 </Project>
