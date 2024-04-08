@@ -119,3 +119,14 @@ markdown_extensions:
 nav:
   - Home:
       - index.md
+  - Packages:
+      - packages/index.md
+      - ApiErrors: packages/apierrors.md
+      - ApiErrors.AspNetCore: packages/apierrors-aspnetcore.md
+      - ApiErrors.FluentValidation: packages/apierrors-fluentvalidation.md
+      - Autofac: packages/autofac.md
+      - Autofac.Options: packages/autofac-options.md
+      - MediatR.FluentValidation: packages/mediatr-fluentvalidation.md
+      - Reactive: packages/reactive.md
+      - System: packages/system.md
+      - ValueHolders: packages/valueholders.md
