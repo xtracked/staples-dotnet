@@ -16,7 +16,7 @@
     <PropertyGroup>        
         <Authors>Xtracked</Authors>
         <Copyright>Copyright (c) Xtracked 2024</Copyright>
-        <PackageProjectUrl>https://github.com/xtracked/staples-dotnet</PackageProjectUrl>
+        <PackageProjectUrl>https://staples-dotnet.xtracked.io</PackageProjectUrl>
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     </PropertyGroup>
     
