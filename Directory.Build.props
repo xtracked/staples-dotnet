@@ -6,6 +6,12 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
     
+    <!-- Version -->
+    <PropertyGroup>
+        <VersionPrefix>0.1.0</VersionPrefix>
+        <VersionSuffix>alpha01</VersionSuffix>
+    </PropertyGroup>
+    
     <!-- Package configuration -->
     <PropertyGroup>        
         <Authors>Xtracked</Authors>
