@@ -1,4 +1,4 @@
-[![ci](https://github.com/xtracked/staples-dotnet/workflows/ci/badge.svg)](https://github.com/xtracked/staples-dotnet/actions/workflows/ci.yml)
+[![build](https://github.com/xtracked/staples-dotnet/workflows/build/badge.svg)](https://github.com/xtracked/staples-dotnet/actions/workflows/build.yml)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/xtracked/staples-dotnet/blob/main/LICENSE)
 
 # Staples .NET
