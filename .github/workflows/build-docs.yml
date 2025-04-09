@@ -10,7 +10,17 @@ on:
       - main
     paths:
       # Only run on changes to docs
-      - ".github/workflows/publish-docs.yml"
+      - ".github/workflows/build-docs.yml"
+      - "docs/**"
+      - "mkdocs.yml"
+      - "requirements.txt"
+  pull_request:
+    branches:
+      # Run the workflow for all pull requests for the main branch
+      - main
+    paths:
+      # Only run on changes to docs
+      - ".github/workflows/build-docs.yml"
       - "docs/**"
       - "mkdocs.yml"
       - "requirements.txt"
