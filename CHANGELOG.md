@@ -9,6 +9,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+## [1.0.0] - 2025-04-09
+
 ### Added
 
 - Add .NET 9 TargetFramework
@@ -34,6 +36,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 *Initial release*
 
-[unreleased]: https://github.com/xtracked/staples-dotnet/compare/0.1.1...HEAD
+[unreleased]: https://github.com/xtracked/staples-dotnet/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/xtracked/staples-dotnet/compare/0.1.1...1.0.0
 [0.1.1]: https://github.com/xtracked/staples-dotnet/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/xtracked/staples-dotnet/releases/tag/0.1.0
