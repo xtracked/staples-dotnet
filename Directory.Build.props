@@ -15,7 +15,7 @@
     <!-- Package configuration -->
     <PropertyGroup>        
         <Authors>Xtracked</Authors>
-        <Copyright>Copyright (c) Xtracked 2024</Copyright>
+        <Copyright>Copyright (c) Xtracked 2024-2025</Copyright>
         <PackageProjectUrl>https://staples-dotnet.xtracked.io</PackageProjectUrl>
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
         <PackageIcon>icon.png</PackageIcon>

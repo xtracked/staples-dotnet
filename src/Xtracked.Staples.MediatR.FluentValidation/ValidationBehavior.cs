@@ -1,4 +1,4 @@
-﻿// Copyright 2024 Xtracked
+﻿// Copyright 2025 Xtracked
 // SPDX-License-Identifier: Apache-2.0
 
 using FluentValidation;
