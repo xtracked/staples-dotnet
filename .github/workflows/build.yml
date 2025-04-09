@@ -1,6 +1,6 @@
 ﻿# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
 
-name: ci
+name: build
 on:
   # Allow running the workflow manually from the GitHub UI
   workflow_dispatch: 
