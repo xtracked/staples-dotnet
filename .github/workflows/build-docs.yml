@@ -26,7 +26,7 @@ on:
       - "requirements.txt"
 
 jobs:
-  deploy_docs:
+  build:
     runs-on: ubuntu-latest
     
     steps:
