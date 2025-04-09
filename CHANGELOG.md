@@ -7,12 +7,18 @@ https://common-changelog.org/).
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 0.1.1 - 2024-04-08
+## [Unreleased]
+
+## [0.1.1] - 2024-04-08
 
 ### Added
 
 - Add icon to NuGet packages
 
-## 0.1.0 - 2024-04-08
+## [0.1.0] - 2024-04-08
 
 *Initial release*
+
+[unreleased]: https://github.com/xtracked/staples-dotnet/compare/0.1.1...HEAD
+[0.1.1]: https://github.com/xtracked/staples-dotnet/compare/0.1.0...0.1.1
+[0.1.0]: https://github.com/xtracked/staples-dotnet/releases/tag/0.1.0
