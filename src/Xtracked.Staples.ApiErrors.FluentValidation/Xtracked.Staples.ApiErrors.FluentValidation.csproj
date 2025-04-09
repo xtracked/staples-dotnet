@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="README.md" Pack="true" PackagePath="/" />
+        <None Include="$(MSBuildThisFileDirectory)/README.md" Pack="true" PackagePath="/README.md" Visible="false" />
     </ItemGroup>
 
     <ItemGroup>

@@ -1,6 +1,5 @@
 <Project>
-
-    <Import Project="../Directory.Packages.props" />
+    <Import Project="$([MSBuild]::GetPathOfFileAbove(Directory.Packages.props, $(MSBuildThisFileDirectory)..))"/>
     
     <ItemGroup>
         <PackageVersion Include="FluentAssertions" Version="8.2.0" />
