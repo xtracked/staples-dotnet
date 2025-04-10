@@ -5,15 +5,7 @@ name: build-docs
 on:
   # Allow running the workflow manually from the GitHub UI
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      # Only run on changes to docs
-      - ".github/workflows/build-docs.yml"
-      - "docs/**"
-      - "mkdocs.yml"
-      - "requirements.txt"
+  # Only run on PRs to make sure PRs don't break docs; 'publish-docs' handles pushes to main
   pull_request:
     branches:
       # Run the workflow for all pull requests for the main branch
