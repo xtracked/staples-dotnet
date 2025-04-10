@@ -9,6 +9,19 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+### Changed
+
+- Bump Microsoft.NET.Test.Sdk from 17.9.0 to 17.13.0
+- Bump xunit from 2.7.0 to 2.9.3
+- Bump coverlet.collector from 6.0.2 to 6.0.4
+- Bump System.Reactive from 6.0.0 to 6.0.1
+- Bump FluentValidation from 11.9.0 to 11.11.0
+- Bump MediatR from 12.2.0 to 12.5.0
+- Bump Microsoft.Extensions.Configuration from 8.0.0 to 9.0.4
+- Bump Microsoft.Extensions.Options from 8.0.2 to 9.0.4
+- Bump Microsoft.Extensions.Options.ConfigurationExtensions from 8.0.0 to 9.0.4
+- Bump Microsoft.Extensions.Logging.Abstractions from 8.0.1 to 9.0.4
+
 ## [1.0.0] - 2025-04-09
 
 ### Added
