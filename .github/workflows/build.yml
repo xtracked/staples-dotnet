@@ -9,17 +9,21 @@ on:
       # Run the workflow when pushing to the main branch
       - main
     paths-ignore:
-      # Don't run on changes to .md files and docs/
+      # Don't run on changes to .md or docs
       - "**.md"
       - "docs/**"
+      - "mkdocs.yml"
+      - "requirements.txt"
   pull_request:
     branches:
       # Run the workflow for all pull requests for the main branch
       - main
     paths-ignore:
-      # Don't run on changes to .md files and docs/
+      # Don't run on changes to .md or docs
       - "**.md"
       - "docs/**"
+      - "mkdocs.yml"
+      - "requirements.txt"
 
 jobs:
   build:
