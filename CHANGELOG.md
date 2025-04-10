@@ -9,6 +9,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+## [1.0.1] - 2025-04-10
+
 ### Changed
 
 - Bump Microsoft.NET.Test.Sdk from 17.9.0 to 17.13.0
@@ -49,7 +51,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 *Initial release*
 
-[unreleased]: https://github.com/xtracked/staples-dotnet/compare/1.0.0...HEAD
+[unreleased]: https://github.com/xtracked/staples-dotnet/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/xtracked/staples-dotnet/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/xtracked/staples-dotnet/compare/0.1.1...1.0.0
 [0.1.1]: https://github.com/xtracked/staples-dotnet/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/xtracked/staples-dotnet/releases/tag/0.1.0
