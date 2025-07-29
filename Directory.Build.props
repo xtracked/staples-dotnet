@@ -30,6 +30,6 @@
     https://github.com/dotnet/sourcelink) for packages
     -->
     <ItemGroup>
-        <PackageReference Include="DotNet.ReproducibleBuilds" PrivateAssets="All"/>
+        <PackageReference Include="DotNet.ReproducibleBuilds" PrivateAssets="All" />
     </ItemGroup>
 </Project>
