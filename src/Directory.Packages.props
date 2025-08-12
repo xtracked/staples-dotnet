@@ -9,7 +9,7 @@
         <PackageVersion Include="Microsoft.Extensions.Configuration" Version="9.0.7" />
         <PackageVersion Include="Microsoft.Extensions.Options" Version="9.0.7" />
         <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.7" />
-        <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.7" />
+        <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.8" />
     </ItemGroup>
 
 </Project>
